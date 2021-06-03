@@ -1,0 +1,46 @@
+.addOnsTitle{
+    color:black;
+    text-align: center;
+    padding: 3px 10px;
+}
+.addOnsContainer{
+    align-items: center;
+    flex-flow: wrap;
+    justify-content: center;
+    padding:20px 0;
+}
+.addOnsBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    width:24%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.selectBoxContainer{
+    width:50%;
+}
+@media only screen and (min-width:481px) and (max-width: 900px) {
+    .addOnsBox {
+        width:49%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .addOnsBox {
+        width:100%;
+    }
+
+}
+@media(max-width: 300px)
+{
+    .addOnsBox{
+        flex-direction: column !important;
+    }
+    .selectBoxContainer{
+        width:100%;
+        text-align: center;
+    }
+}
+
